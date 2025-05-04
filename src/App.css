@@ -1,0 +1,59 @@
+.App {
+  background-color: #282c34;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form-container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin:1%;
+}
+
+.equation-form{
+  flex-direction: column;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.equation-form input{
+  width: 62%;
+  height: 90%;
+  font-size: x-large;
+}
+
+.equation-form button{
+width: 7%;
+margin-left: 10px;
+height: 100%;
+font-size: x-large;
+}
+
+.steps-container{
+  background-color: #eee;
+  color :#282c34;
+  width: 70%;
+}
+
+.steps-container h3{
+  text-align: center;
+  margin: 0;
+  text-decoration: underline;
+}
+.steps-container ul{
+  list-style-type: none;
+  padding: 0;
+}
